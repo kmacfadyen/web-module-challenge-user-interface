@@ -1,5 +1,8 @@
 /*======= Create a new universal selector that changes the font color to: #3C373B */
 
+* {
+  color: #3C373B;
+}
 
 h1 {
   font-family: 'Gaegu', cursive;
@@ -36,9 +39,9 @@ line-height: 1.4;
   display: flex;
 }
 
-.content-row div {
+/* .content-row div { */
   /*======= create a margin propery.  Set the value to 20px */
-}
+/* } */
 
 .container {
   /*======= create a width property. Set the value to 605px */
@@ -58,9 +61,9 @@ line-height: 1.4;
   
 }
 
-.container header nav a:hover {
+/* .container header nav a:hover { */
 /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
-}
+/* } */
 
 /*======= Create a selector for the about section to have the following styles:
   margin-top: 20px;
